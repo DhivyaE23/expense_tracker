@@ -1,6 +1,10 @@
-# Expense Tracker - MERN Stack
+# SpendWise - MERN Stack
 
-A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Express.js, React.js, and Node.js).
+### 💰 Track Smart. Spend Less. Save More.
+
+SpendWise is a full-stack expense tracking application built using the MERN Stack (MongoDB, Express.js, React.js, and Node.js). The application helps users manage their income and expenses, monitor spending habits, and encourage better saving practices through a clean and intuitive dashboard.
+
+---
 
 ## Features
 
@@ -8,22 +12,26 @@ A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Ex
 
 * Add Income Transactions
 * Add Expense Transactions
+* Delete Transactions
 * View All Transactions
-* MongoDB Database Integration
 * Calculate Total Income
 * Calculate Total Expenses
 * Calculate Current Balance
+* Responsive Tailwind CSS UI
+* MongoDB Database Integration
 * REST API using Express.js
 * React Frontend with Axios
 
 ### Upcoming Features
 
-* Delete Transactions
-* Tailwind CSS UI
 * Pie Chart Analytics
 * Monthly Reports
 * Budget Tracking
 * Dashboard Improvements
+* Category-wise Expense Analysis
+* Authentication System
+
+---
 
 ## Tech Stack
 
@@ -32,6 +40,7 @@ A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Ex
 * React.js
 * Axios
 * Vite
+* Tailwind CSS
 
 ### Backend
 
@@ -43,39 +52,36 @@ A full-stack Expense Tracker application built using the MERN Stack (MongoDB, Ex
 * MongoDB
 * Mongoose
 
+---
+
 ## Project Structure
 
-expense-tracker/
+```text
+SpendWise/
 
 ├── client/
-
 │   ├── src/
-
+│   ├── public/
 │   └── package.json
-
 │
-
 ├── server/
-
 │   ├── models/
-
 │   ├── routes/
-
 │   ├── .env
-
 │   └── package.json
-
 │
-
 └── README.md
+```
+
+---
 
 ## Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/DhivyaE23/spendwise.git
+cd spendwise
 ```
 
 ### Backend Setup
@@ -94,6 +100,8 @@ npm install
 npm run dev
 ```
 
+---
+
 ## Environment Variables
 
 Create a `.env` file inside the server folder:
@@ -102,6 +110,8 @@ Create a `.env` file inside the server folder:
 MONGO_URI=mongodb://localhost:27017/expense_tracker
 PORT=5000
 ```
+
+---
 
 ## API Endpoints
 
@@ -117,7 +127,13 @@ GET /api/transactions
 POST /api/transactions
 ```
 
-Sample Request:
+### Delete Transaction
+
+```http
+DELETE /api/transactions/:id
+```
+
+### Sample Request
 
 ```json
 {
@@ -128,21 +144,27 @@ Sample Request:
 }
 ```
 
-## Screenshots
+---
 
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/f636c87d-1ac4-44d9-9293-9044e53b6afa" />
+## Application Preview
 
+<img width="1919" height="1020" alt="SpendWise Dashboard" src="https://github.com/user-attachments/assets/f636c87d-1ac4-44d9-9293-9044e53b6afa" />
+
+---
 
 ## Future Enhancements
 
-* Transaction Deletion
-* Category-wise Analytics
-* Monthly Expense Reports
-* Budget Alerts
-* Responsive Design
-* Authentication
+* Interactive Pie Chart Analytics
+* Monthly Financial Reports
+* Budget Planning and Alerts
+* Advanced Dashboard Insights
+* Search and Filter Transactions
+* User Authentication & Authorization
+
+---
 
 ## Author
 
-Dhivya E
-Built as a MERN Stack learning project.
+**Dhivya E**
+
+Built as a MERN Stack learning project to strengthen full-stack development skills using React, Node.js, Express.js, MongoDB, REST APIs, and Tailwind CSS.
