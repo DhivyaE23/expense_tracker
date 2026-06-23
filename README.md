@@ -149,6 +149,8 @@ DELETE /api/transactions/:id
 ## Application Preview
 
 <img width="1919" height="1020" alt="SpendWise Dashboard" src="https://github.com/user-attachments/assets/f636c87d-1ac4-44d9-9293-9044e53b6afa" />
+<img width="1190" height="830" alt="image" src="https://github.com/user-attachments/assets/c58d6a1a-a1d4-42fb-a383-36a043483626" />
+
 
 ---
 
